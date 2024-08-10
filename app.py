@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from cluster_descriptions import cluster_descriptions  # Import the dictionary
 
 # Load your data
 df = pd.read_csv('clustered_games.csv')
@@ -31,7 +32,7 @@ bar_chart = px.bar(filtered_df, x='Genre', y='Global_Sales',
 st.plotly_chart(bar_chart)
 
 # Display cluster description
-description = df[df['Cluster'] == selected_cluster]['Description'].iloc[0]
+description = cluster_descriptions.get(selected_cluster, "Description not available.")
 st.subheader('Cluster Description')
 st.write(description)
 
