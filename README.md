@@ -103,9 +103,9 @@ Contributions are welcome! Feel free to fork the repository, make changes, and s
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-For any questions or suggestions, feel free to reach out:
-Email: amalia.wulandiari@example.com
-GitHub: laksmiamalia
-LinkedIn: [LinkedIn](https://www.linkedin.com/in/laksmiamalia/)
+For any questions or suggestions, feel free to reach out: <br/>
+Email: amalia.wulandiari@gmail.com <br/>
+GitHub: laksmiamalia <br/>
+LinkedIn: [LinkedIn](https://www.linkedin.com/in/laksmiamalia/) <br/>
 
  
