@@ -32,7 +32,7 @@ bar_chart = px.bar(filtered_df, x='Genre', y='Global_Sales',
 st.plotly_chart(bar_chart)
 
 # Display cluster description
-description = cluster_descriptions.get(selected_cluster, "Description not available.")
+description = cluster_descriptions.get(selected_cluster, 'Description not available.')
 st.subheader('Cluster Description')
 st.write(description)
 
