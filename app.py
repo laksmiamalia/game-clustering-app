@@ -11,6 +11,8 @@ cluster_counts = df['Cluster'].value_counts().reset_index()
 cluster_counts.columns = ['Cluster', 'Count']
 
 # Streamlit app layout
+st.set_page_config(page_title="Game Clustering App", page_icon="🎮")
+
 st.title('Game Clustering App')
 
 # Pie chart showing the proportion of each cluster
